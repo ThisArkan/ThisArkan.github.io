@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:wght@200&family=Pixelify+Sans:wght@500&display=swap');
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url(asset/Sepang\ Qualifying.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2% 0%;
+}
+
+.container{
+    /* set width of the container  */
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    padding: 50px 0px 100px 0px;
+
+    /* Mengatur posisi tata letak element dengan Flexbox */
+    /* posisi elemet tengah */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* set the profile image */
+.img-container img {
+    width: 150px;
+  border-radius: 50%;
+}
+
+/* Set the title and description  */
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+
+    /* Warna Text Heading Dan deskripsi */
+    color: black;
+}
+
+/* Set the link item elements */
+.link-item {
+    width: 100%;
+    height: 56px;
+    margin: 16px;
+    border-radius: 20px;
+
+    color: #eaeaea;
+    text-decoration: none;
+    background-color: rgb(37, 37, 37);
+
+    display: flex;
+    justify-content: space-between;
+     
+}
+
+.link > a:hover {
+    background-color: azure;
+}
+
+.icon{
+    margin: 3px 8px ;
+    width: 44px;
+    height: 44px;
+}
+
+.link-items p {
+    margin-right: 60px;
+}
+
+.p{
+    font-size: 25 px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    box-shadow: inset 0 0 0 0 red;
+    color: black;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  a:hover {
+    color: #fff;
+    box-shadow: inset 700px 0 0 0 #eaeaea;;
+  }
+  
+  /* Presentational styles */
+  a {
+    color: maroon;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height:    1.0;
+    text-decoration: none;
+  }
+  
+  body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+  }
